@@ -1,0 +1,69 @@
+body {
+    background-color: black;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+}
+.Caja0 {
+    text-align: center;
+    background-color: red;
+    margin-left: auto;
+    width: auto;
+    height: auto;
+    padding: 10px;
+}
+.Caja1 {
+    background-color: red;
+    width: auto;
+    height: 110px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+.Caja2 {
+    background-color: red;
+    width: auto;
+    height: 250px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.Caja3 {
+    background-color: red;
+    width: auto;
+    height: auto;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.styled-table {
+    border-collapse: collapse;
+    background-color: grey;
+    color: white;
+}
+
+.styled-table td, .styled-table th {
+    border: 1px solid white;
+}
+
+.header-row, .first-column {
+    background-color: orange;
+}
+
+.first-column {
+    text-align: left;
+}
+
+.Caja4 {
+    background-color: red;
+    width: auto;
+    height: auto;
+    margin-left: 50px;
+    margin-right: 50px; 
+}
