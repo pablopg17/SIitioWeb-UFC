@@ -1,13 +1,24 @@
 body {
     background-color: black;
+    width: 1519px;
+    margin:0 auto;
 }
 
-h2 {
+h2, h1 {
     text-align: center;
+    font-family: 'Franklin Gothic Medium';
+    
 }
 
-p {
+h3 {
+    font-family: 'Franklin Gothic Medium';
+   
+}
+
+p, ul, ol{
     text-align: justify;
+    font-family: 'Franklin Gothic Medium';
+   
 }
 .Caja0 {
     text-align: center;
@@ -16,22 +27,47 @@ p {
     width: auto;
     height: auto;
     padding: 10px;
+   
 }
+
+.cajaIndice {
+    background-color: red;
+    width: 280px;
+    height: auto;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+   
+}
+
 .Caja1 {
     background-color: red;
     width: auto;
-    height: 110px;
+    height: auto;
     margin-left: 50px;
     margin-right: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  
 }
 
 
 .Caja2 {
     background-color: red;
     width: auto;
-    height: 250px;
+    height: auto;
     margin-left: 50px;
     margin-right: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  
 }
 
 .Caja3 {
@@ -40,24 +76,33 @@ p {
     height: auto;
     margin-left: 50px;
     margin-right: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+   
 }
 
-.styled-table {
+.tabla1 {
     border-collapse: collapse;
     background-color: grey;
     color: white;
+   
 }
 
-.styled-table td, .styled-table th {
+.tabla1 td, .tabla1 th {
     border: 1px solid white;
+   
 }
 
-.header-row, .first-column {
+.celda1, .columna1 {
     background-color: orange;
+   
 }
 
-.first-column {
+.columna1{
     text-align: left;
+    
 }
 
 .Caja4 {
@@ -66,4 +111,78 @@ p {
     height: auto;
     margin-left: 50px;
     margin-right: 50px; 
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+.Caja5 {
+    background-color: red;
+    width: auto;
+    height: auto;
+    margin-left: 50px;
+    margin-right: 50px; 
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+
+.CajaCampeones {
+    margin-left: 340px;
+  
+}
+
+footer {
+    text-align: center;
+    background-color: red;
+    width: 150px;
+    margin-left: 1335px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 1px;
+   
+}
+
+.guantesypantalon {
+    width: 200px;
+    height: 200px;
+   
+}
+
+.ilia {
+    width: 400px;
+    height: 300px;
+    float: right;
+    margin-left: 10px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+   
+}
+
+.jaula {
+    float: right;
+    width: 500px;
+    height: 390px;
+    margin-left: 10px;
+   
+}
+
+.jonjones {
+    float:left;
+    height: 390px;
+    width: 250px;
+    margin-right: 10px;
+   
+}
+
+.brandon {
+    float: right;
+    height: 230px;
+    width: 280px;
+    margin-left: 10px;
+ 
 }
